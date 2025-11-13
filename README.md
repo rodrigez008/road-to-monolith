@@ -17,6 +17,10 @@ _US320_ -
 ## File structure
 
 use [FSD](https://feature-sliced.design/docs/get-started/overview)
+[FSD Crawler](https://github.com/falkomerr/fsd-crawler) - simple vizual.
+[Steiger](https://github.com/feature-sliced/steiger) - file structure and project architecture linter.
+
+`npx steiger ./src` - run
 
 ## Tests
 

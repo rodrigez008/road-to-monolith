@@ -8,7 +8,8 @@
 		"build": "tsc -b && vite build",
 		"lint": "eslint .",
 		"test": "vitest",
-		"test:coverage": "vitest --coverage"
+		"test:coverage": "vitest --coverage",
+		"fsd-analyze": "fsd-crawler"
 	},
 	"dependencies": {
 		"react": "^19.2.0",
@@ -16,6 +17,7 @@
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.39.1",
+		"@feature-sliced/steiger-plugin": "^0.5.7",
 		"@types/node": "^24.10.0",
 		"@types/react": "^19.2.2",
 		"@types/react-dom": "^19.2.2",
@@ -24,7 +26,9 @@
 		"eslint": "^9.39.1",
 		"eslint-plugin-react-hooks": "^7.0.1",
 		"eslint-plugin-react-refresh": "^0.4.24",
+		"fsd-crawler": "^1.0.11",
 		"globals": "^16.5.0",
+		"steiger": "^0.5.11",
 		"typescript": "~5.9.3",
 		"typescript-eslint": "^8.46.3",
 		"vite": "^7.2.2",
