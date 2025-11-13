@@ -14,10 +14,9 @@ _US530_ - meaningless code use vitest, coverage. Project folder FSD sctructure
 <br />
 _US320_ -
 
-## File structure
+## File structure use FSD
 
-use [FSD](https://feature-sliced.design/docs/get-started/overview)
-[FSD Crawler](https://github.com/falkomerr/fsd-crawler) - simple vizual.
+[FSD](https://feature-sliced.design/docs/get-started/overview)
 [Steiger](https://github.com/feature-sliced/steiger) - file structure and project architecture linter.
 
 `npx steiger ./src` - run
