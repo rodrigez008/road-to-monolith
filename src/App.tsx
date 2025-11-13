@@ -1,5 +1,11 @@
+import { Viewer } from "./features/viewer";
+
 function App() {
-	return <>Hello MONOLITH</>;
+	return (
+		<>
+			<Viewer />
+		</>
+	);
 }
 
 export default App;

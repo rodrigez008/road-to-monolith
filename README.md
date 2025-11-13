@@ -9,7 +9,7 @@ This project will grow into a big monster that will have everything
 > like a [United States Numbered Highways](https://en.wikipedia.org/wiki/List_of_United_States_Numbered_Highways)
 
 _US630_ - initial vite react project
-_US530_ - meaningless code use vitest, coverage
+_US530_ - meaningless code use vitest, coverage. Project folder FSD sctructure
 
 ## Tests
 
