@@ -1,11 +1,5 @@
-import { Viewer } from "./features/viewer";
-
 function App() {
-	return (
-		<>
-			<Viewer />
-		</>
-	);
+	return <></>;
 }
 
 export default App;
