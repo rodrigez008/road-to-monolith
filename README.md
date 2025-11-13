@@ -17,12 +17,17 @@ _US320_ -
 ## File structure use FSD
 
 [FSD](https://feature-sliced.design/docs/get-started/overview)
+<br />
 [Steiger](https://github.com/feature-sliced/steiger) - file structure and project architecture linter.
 
-`npx steiger ./src` - run
+```bash
+npx steiger ./src
+```
 
 ## Tests
 
 Use simple vitest
 
-`npm run test` - start cases
+```bash
+npm run test
+```
