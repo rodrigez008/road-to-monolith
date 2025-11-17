@@ -13,6 +13,7 @@ _US630_ - initial vite react project
 _US530_ - meaningless code use vitest, coverage. Project folder FSD sctructure
 <br />
 _US320_ - use advanced typescript configuration
+_US650_ - use advanced eslint configuration
 
 ## File structure use FSD
 
