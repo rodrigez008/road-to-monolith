@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import path from "path";
 
 export default defineConfig(({ mode }) => ({
 	plugins: [react()],
@@ -21,6 +22,12 @@ export default defineConfig(({ mode }) => ({
 				chunkFileNames: "js/[name]-[hash].js",
 				entryFileNames: "js/[name]-[hash].js",
 			},
+		},
+	},
+
+	resolve: {
+		alias: {
+			"@app": path.resolve(__dirname, "src/app"),
 		},
 	},
 }));
