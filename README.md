@@ -13,9 +13,13 @@ _US630_ - initial vite react project
 _US530_ - meaningless code use vitest, coverage. Project folder FSD sctructure
 <br />
 _US320_ - use advanced typescript configuration
+<br />
 _US650_ - use advanced eslint configuration
+<br />
 _US189_ - initial npm monorepo and use turbo repo
+<br />
 _US118_ - storybook apps
+<br />
 _US102_ - weather apps use client server (React + Express + Zustand) for fill apps its dont work
 
 ## File structure use FSD
