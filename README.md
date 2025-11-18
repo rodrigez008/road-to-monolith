@@ -16,7 +16,7 @@ _US320_ - use advanced typescript configuration
 _US650_ - use advanced eslint configuration
 _US189_ - initial npm monorepo and use turbo repo
 _US118_ - storybook apps
-_US102_ - weather apps use client server (React + Express + Zustand)
+_US102_ - weather apps use client server (React + Express + Zustand) for fill apps its dont work
 
 ## File structure use FSD
 
