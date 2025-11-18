@@ -8,9 +8,15 @@
 		"check-types": {
 			"dependsOn": ["^check-types"]
 		},
-		"lint": {},
+		"lint": {
+			"dependsOn": ["^lint"]
+		},
 		"dev": {
 			"persistent": true,
+			"cache": false
+		},
+		"preview-storybook": {
+			"dependsOn": ["^build"],
 			"cache": false
 		}
 	}

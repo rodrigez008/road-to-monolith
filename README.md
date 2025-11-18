@@ -15,6 +15,8 @@ _US530_ - meaningless code use vitest, coverage. Project folder FSD sctructure
 _US320_ - use advanced typescript configuration
 _US650_ - use advanced eslint configuration
 _US189_ - initial npm monorepo and use turbo repo
+_US118_ - storybook apps
+_US102_ - weather apps use client server (React + Express + Zustand)
 
 ## File structure use FSD
 
@@ -33,3 +35,7 @@ Use simple vitest
 ```bash
 npm run test
 ```
+
+## Storybook
+
+apps/docs
