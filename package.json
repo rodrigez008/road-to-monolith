@@ -4,5 +4,13 @@
 	"workspaces": [
 		"apps/*"
 	],
-	"scripts": {}
+	"scripts": {
+		"build": "npx turbo run build",
+		"dev": "npx turbo run dev",
+		"lint": "npx turbo run lint"
+	},
+	"devDependencies": {
+		"turbo": "^2.6.1"
+	},
+	"packageManager": "npm@8.5.0"
 }
