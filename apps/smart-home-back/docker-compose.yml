@@ -1,0 +1,20 @@
+services:
+  postgress:
+    container_name: postgres
+    image: postgres:latest
+    restart: always
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASS=${POSTGRES_PASSWORD}
+    ports:
+      - 5433:5432
+    volumes:
+      - postgres_data:/var/lib/postgresql/postgres_data
+    networks:
+      - smart-home
+
+volumes:
+  postgres_data:
+
+networks:
+  smart-home:
