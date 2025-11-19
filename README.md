@@ -8,6 +8,10 @@ This project will grow into a big monster that will have everything
 
 > like a [United States Numbered Highways](https://en.wikipedia.org/wiki/List_of_United_States_Numbered_Highways)
 
+<details>
+  <summary> View roads
+</summary>
+
 _US630_ - initial vite react project
 <br />
 _US530_ - meaningless code use vitest, coverage. Project folder FSD sctructure
@@ -21,6 +25,11 @@ _US189_ - initial npm monorepo and use turbo repo
 _US118_ - storybook apps
 <br />
 _US102_ - weather apps use client server (React + Express + Zustand) for fill apps its dont work
+<br />
+_US154_ - cli nest,js for backend server use prisma orm
+<br />
+
+</details>
 
 ## File structure use FSD
 
