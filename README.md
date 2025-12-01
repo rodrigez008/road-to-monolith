@@ -28,6 +28,8 @@ _US102_ - weather apps use client server (React + Express + Zustand) for fill ap
 <br />
 _US154_ - cli nest,js for backend server use prisma orm
 <br />
+_US430_ - new nest auth services
+<br />
 
 </details>
 
