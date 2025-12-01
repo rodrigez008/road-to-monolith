@@ -6,15 +6,23 @@ import cookieParser from 'cookie-parser';
 import IORedis from 'ioredis';
 import { ValidationPipe } from '@nestjs/common';
 import session from 'express-session';
-import { ms } from 'ms';
+import ms from 'ms';
 import parseBoolean from '@eturino/ts-parse-boolean';
-import { RedisStore } from 'connect-redis';
+import RedisStore from 'connect-redis';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = app.get(ConfigService);
   const redis = new IORedis(config.getOrThrow('REDIS_URI'));
+
+  redis.on('connect', () => {
+    console.log('✅ Redis connected');
+  });
+
+  redis.on('error', (err) => {
+    console.error('❌ Redis error:', err);
+  });
 
   app.use(cookieParser(config.getOrThrow<string>('COOKIES_SECRET')));
 
@@ -28,7 +36,7 @@ async function bootstrap() {
     session({
       secret: config.getOrThrow('SESSION_SECRET'),
       name: config.getOrThrow('SESSION_NAME'),
-      resave: true,
+      resave: false,
       saveUninitialized: false,
       cookie: {
         domain: config.getOrThrow('SESSION_DOMAIN'),
