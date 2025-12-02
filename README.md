@@ -30,6 +30,7 @@ _US154_ - cli nest,js for backend server use prisma orm
 <br />
 _US430_ - new nest auth services
 <br />
+_US630_ - cubos frontend and more backend fixes
 
 </details>
 
